@@ -1,0 +1,207 @@
+<div class="bg-white rounded-3xl w-full h-full flex flex-col overflow-hidden">
+    <div
+        class="bg-gradient-to-r from-blue-600 to-indigo-600 mb-2 px-6 sm:px-8 py-5 rounded-t-3xl flex items-center justify-between shadow-sm">
+
+        <div>
+            <h2 class="text-2xl font-bold text-white leading-none">
+                Add New Car
+            </h2>
+            <p class="text-blue-100 text-sm mt-1">
+                Fill all details to add a rental car
+            </p>
+
+        </div>
+        <button (click)="close()"
+            class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-500 text-white flex items-center justify-center transition-all duration-300">
+
+            <mat-icon class="text-[20px]">
+                close
+            </mat-icon>
+
+        </button>
+
+    </div>
+
+    <div class="flex-1 overflow-y-auto px-6 sm:px-8 pb-6">
+
+        <form>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                <!-- Car Type -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Car Type
+                    </label>
+
+                    <select
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+
+                        <option selected disabled>Select Car Type</option>
+
+                        <option>SUV</option>
+                        <option>Sedan</option>
+                        <option>Hatchback</option>
+                        <option>Luxury</option>
+                        <option>Sports</option>
+
+                    </select>
+                </div>
+
+                <!-- Car Name -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Car Name
+                    </label>
+
+                    <select
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+
+                        <option selected disabled>Select Car Name</option>
+
+                        <option>Fortuner</option>
+                        <option>BMW X5</option>
+                        <option>Audi Q7</option>
+                        <option>Swift</option>
+
+                    </select>
+                </div>
+
+                <!-- Car Number -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Car Number
+                    </label>
+
+                    <input type="text" placeholder="WB-02-1234"
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+                </div>
+
+                <!-- Brand -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Brand
+                    </label>
+
+                    <input type="text" placeholder="Toyota"
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+                </div>
+
+                <!-- Model Year -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Model Year
+                    </label>
+
+                    <input type="number" placeholder="2024"
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+                </div>
+
+                <!-- Price -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Price Per Day
+                    </label>
+
+                    <input type="number" placeholder="₹2500"
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+                </div>
+
+                <!-- Fuel Type -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Fuel Type
+                    </label>
+
+                    <select
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+
+                        <option selected disabled>Select Fuel Type</option>
+
+                        <option>Petrol</option>
+                        <option>Diesel</option>
+                        <option>Electric</option>
+                        <option>CNG</option>
+
+                    </select>
+                </div>
+
+                <!-- Availability -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        Availability Status
+                    </label>
+
+                    <select
+                        class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+
+                        <option>Available</option>
+                        <option>Booked</option>
+                        <option>Maintenance</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- Description -->
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">
+                    Description
+                </label>
+
+                <textarea rows="4" placeholder="Write car details..."
+                    class="w-full border border-gray-200 bg-gray-50 rounded-2xl px-4 py-3 outline-none resize-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all"></textarea>
+            </div>
+
+            <!-- Upload -->
+            <div>
+
+                <label class="block text-sm font-semibold text-gray-700 mb-3">
+                    Car Image
+                </label>
+
+                <label
+                    class="border-2 border-dashed border-gray-300 rounded-3xl p-8 flex flex-col items-center justify-center text-center cursor-pointer hover:border-blue-400 hover:bg-blue-50/30 transition-all">
+
+                    <div class="w-16 h-16 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center mb-4">
+
+                        <mat-icon class="text-4xl">
+                            cloud_upload
+                        </mat-icon>
+
+                    </div>
+
+                    <h3 class="font-semibold text-gray-800">
+                        Upload Car Image
+                    </h3>
+
+                    <p class="text-sm text-gray-500 mt-1">
+                        PNG, JPG up to 5MB
+                    </p>
+
+                    <input type="file" class="hidden">
+
+                </label>
+
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-end gap-4 pt-2">
+
+                <button type="button" (click)="close()"
+                    class="w-full sm:w-auto px-6 py-3 rounded-2xl bg-red-50 border border-red-200 hover:bg-red-500 hover:text-white text-red-600 font-medium transition-all">
+                    Cancel
+                </button>
+
+
+                <button type="submit"
+                    class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-2xl flex items-center justify-center gap-2 font-medium shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02]">
+                    <mat-icon>save</mat-icon>
+                    Save Car
+                </button>
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,143 @@
+<div class="flex h-screen overflow-hidden">
+
+    <!-- Overlay -->
+    @if(isSidebarOpen){
+    <div class="fixed inset-0 bg-black/50 z-40 lg:hidden" (click)="toggleSidebar()">
+    </div>
+    }
+
+    <!-- Sidebar -->
+    <aside
+        class="fixed lg:static top-0 left-0 z-50 h-screen w-72 bg-gray-900 text-white transform transition-all duration-300 shadow-2xl"
+        [class.translate-x-0]="isSidebarOpen" [class.-translate-x-full]="!isSidebarOpen">
+
+        <!-- Logo -->
+        <div class="flex items-center justify-between p-5 border-b border-gray-800">
+
+            <div>
+                <h1 class="text-3xl font-bold text-blue-400">
+                    Rentixo
+                </h1>
+            </div>
+
+            <button class="lg:hidden" (click)="toggleSidebar()">
+                <mat-icon>close</mat-icon>
+            </button>
+
+        </div>
+
+        <!-- User -->
+        <div class="p-5 border-b border-gray-800">
+
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center font-bold text-lg">
+                    B
+                </div>
+                <div>
+                    <h2 class="font-semibold">Binoy</h2>
+                    <p class="text-sm text-gray-400">
+                        Administrator
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu -->
+        <nav class="p-4 space-y-2">
+
+            <a routerLink="/dashboard"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 transition-all">
+
+                <mat-icon>dashboard</mat-icon>
+                <span>Dashboard</span>
+
+            </a>
+
+            <a routerLink="/cars" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-800 transition-all">
+                <mat-icon>directions_car</mat-icon>
+                <span>Cars</span>
+            </a>
+
+            <a routerLink="/booking"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-800 transition-all">
+                <mat-icon>calendar_month</mat-icon>
+                <span>Bookings</span>
+            </a>
+
+            <a routerLink="/customerlising"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-800 transition-all">
+
+                <mat-icon>groups</mat-icon>
+                <span>Customers</span>
+
+            </a>
+
+            <a routerLink="/paymentlisting"
+                class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-800 transition-all">
+
+                <mat-icon>payments</mat-icon>
+                <span>Payments</span>
+            </a>
+
+
+        </nav>
+
+        <!-- Bottom -->
+        <div class="absolute bottom-0 left-0 w-full p-4 border-t border-gray-800">
+
+            <a routerLink="/login">
+
+                <button
+                    class="w-full bg-red-500 hover:bg-red-600 transition-all rounded-xl py-3 flex items-center justify-center gap-2">
+                    <mat-icon>logout</mat-icon>
+                    Logout
+                </button>
+            </a>
+
+        </div>
+
+    </aside>
+
+    <!-- Main -->
+    <div class="flex-1 bg-gray-100 flex flex-col h-screen overflow-hidden">
+
+        <!-- Topbar -->
+        <header class="h-16 bg-white shadow-sm flex items-center justify-between px-5">
+
+            <!-- Mobile Button -->
+            <button class="lg:hidden" (click)="toggleSidebar()">
+
+                <mat-icon>menu</mat-icon>
+            </button>
+
+            <h1 class="text-xl font-semibold">
+                Dashboard
+            </h1>
+
+            <div class="flex items-center gap-3">
+
+                <button class="relative">
+
+                    <mat-icon>notifications</mat-icon>
+
+                    <span
+                        class="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] rounded-full w-4 h-4 flex items-center justify-center">
+                        2
+                    </span>
+                </button>
+
+                <div class="w-10 h-10 rounded-full bg-gray-300"></div>
+
+            </div>
+
+        </header>
+
+        <!-- Content -->
+        <div class="flex-1 overflow-y-auto p-5">
+
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

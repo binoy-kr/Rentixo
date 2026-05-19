@@ -1,0 +1,115 @@
+<div
+    class="bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 h-[75vh] flex flex-col p-6 sm:p-8">
+
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-2">
+        <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 tracking-tight">
+                Booked Listing
+            </h2>
+        </div>
+
+        <button (click)="openAddbookingDialog()"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-3 rounded-xl flex items-center justify-center gap-2 transition-all shadow-sm hover:shadow-md active:scale-[0.98]">
+            <mat-icon class="text-xl">add</mat-icon>
+            <span>Add Booking</span>
+        </button>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-2">
+
+        <div class="relative">
+            <mat-icon class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
+                search
+            </mat-icon>
+            <input type="text" placeholder="Search car by name or number..."
+                class="w-full border border-gray-200 bg-gray-50/50 rounded-xl pl-10 pr-4 py-3 outline-none transition-all focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10 text-gray-700 placeholder-gray-400">
+        </div>
+
+        <div class="relative">
+            <select
+                class="w-full appearance-none border border-gray-200 bg-gray-50/50 rounded-xl px-4 py-3 outline-none transition-all focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10 text-gray-700">
+                <option selected disabled>Select Brand</option>
+                <option>Toyota</option>
+                <option>BMW</option>
+                <option>Audi</option>
+            </select>
+        </div>
+
+        <div class="relative">
+            <select
+                class="w-full appearance-none border border-gray-200 bg-gray-50/50 rounded-xl px-4 py-3 outline-none transition-all focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10 text-gray-700">
+                <option selected disabled>Status</option>
+                <option>Available</option>
+                <option>Booked</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto overflow-y-auto flex-1 rounded-2xl border border-gray-100">
+        <table class="w-full border-collapse bg-white min-w-[800px]">
+            <thead>
+                <tr class="bg-gray-50/70 border-b border-gray-100 text-left">
+                    <th class="p-4 font-semibold text-xs uppercase tracking-wider text-gray-500">Car Details</th>
+                    <th class="p-4 font-semibold text-xs uppercase tracking-wider text-gray-500">Brand</th>
+                    <th class="p-4 font-semibold text-xs uppercase tracking-wider text-gray-500">Model Year</th>
+                    <th class="p-4 font-semibold text-xs uppercase tracking-wider text-gray-500">Price</th>
+                    <th class="p-4 font-semibold text-xs uppercase tracking-wider text-gray-500">Status</th>
+                    <th class="p-4 font-semibold text-xs uppercase tracking-wider text-gray-500 text-center">Actions
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody class="divide-y divide-gray-100">
+                <tr class="hover:bg-gray-50/50 transition-all group">
+                    <td class="p-4">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center transition-colors group-hover:bg-blue-100">
+                                <mat-icon class="text-2xl">directions_car</mat-icon>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                                    Fortuner
+                                </h3>
+                                <p class="text-xs font-medium text-gray-400 mt-0.5 uppercase tracking-wider">
+                                    WB-02-1234
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td class="p-4 text-gray-600 font-medium">Toyota</td>
+
+                    <td class="p-4 text-gray-600">2024</td>
+
+                    <td class="p-4">
+                        <span class="font-bold text-gray-900">₹2,500</span>
+                        <span class="text-xs text-gray-400 font-medium">/day</span>
+                    </td>
+
+                    <td class="p-4">
+                        <span
+                            class="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                            Available
+                        </span>
+                    </td>
+
+                    <td class="p-4">
+                        <div class="flex items-center justify-center gap-2">
+                            <button title="Edit Car"
+                                class="w-9 h-9 rounded-xl bg-gray-50 hover:bg-blue-50 hover:text-blue-600 text-gray-500 flex items-center justify-center transition-all border border-gray-100 hover:border-blue-100">
+                                <mat-icon class="text-sm">edit</mat-icon>
+                            </button>
+
+                            <button title="Delete Car"
+                                class="w-9 h-9 rounded-xl bg-gray-50 hover:bg-red-50 hover:text-red-600 text-gray-500 flex items-center justify-center transition-all border border-gray-100 hover:border-red-100">
+                                <mat-icon class="text-sm">delete</mat-icon>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

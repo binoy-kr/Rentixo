@@ -9,57 +9,76 @@ import { NotFoundComponent } from './layout/not-found/not-found.component';
 import { AdminDashboardComponent } from './views/pages/admin-pages/admin-dashboard/admin-dashboard.component';
 import { SignInComponent } from './views/auth/sign-in/sign-in.component';
 import { SignUpComponent } from './views/auth/sign-up/sign-up.component';
+import { ServiceComponent } from './views/pages/user-pages/service/service.component';
+import { ContractComponent } from './views/pages/user-pages/contract/contract.component';
+import { CollectionsComponent } from './views/pages/user-pages/collections/collections.component';
+import { AboutComponent } from './views/pages/user-pages/about/about.component';
 export const routes: Routes = [
+  {
+    path: 'login',
+    component: SignInComponent,
+  },
+  {
+    path: 'signup',
+    component: SignUpComponent,
+  },
+  {
+    path: '',
+    component: SideNavbarComponent,
 
-    {
-        path: 'login',
-        component: SignInComponent
-    },
-    {
-        path: 'signup',
-        component: SignUpComponent
-    },
-    {
+    children: [
+      {
         path: '',
-        component: SideNavbarComponent,
+        redirectTo: 'login',
+        pathMatch: 'full',
+      },
 
+      {
+        path: 'cars',
+        component: CarSectionListingComponent,
+      },
+      {
+        path: 'booking',
+        component: BookingSectionsListingComponent,
+      },
+      {
+        path: 'customerlising',
+        component: CustomerListingComponent,
+      },
+      {
+        path: 'paymentlisting',
+        component: PaymentListingComponent,
+      },
+      {
+        path: 'dashboard',
+        component: AdminDashboardComponent,
+      },
+    ],
+  },
 
-        children: [
+  {
+    path: 'home',
+    component: HomeComponent,
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
+  },
+  {
+    path: 'collections',
+    component: CollectionsComponent,
+  },
+  {
+    path: 'service',
+    component: ServiceComponent,
+  },
+  {
+    path: 'contract',
+    component: ContractComponent,
+  },
 
-            {
-                path: '',
-                redirectTo: 'login',
-                pathMatch: 'full'
-            },
-
-            {
-                path: 'cars',
-                component: CarSectionListingComponent
-            },
-            {
-                path: 'booking',
-                component: BookingSectionsListingComponent
-            },
-            {
-                path: 'customerlising',
-                component: CustomerListingComponent
-            },
-            {
-                path: 'paymentlisting',
-                component: PaymentListingComponent
-            },
-            {
-                path: 'dashboard',
-                component: AdminDashboardComponent
-            },
-
-        ],
-
-    },
-
-    {
-        path: '**',
-        component: NotFoundComponent
-    }
-
+  {
+    path: '**',
+    component: NotFoundComponent,
+  },
 ];

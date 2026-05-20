@@ -3,11 +3,11 @@ import { FooterComponent } from "../../../../layout/footer/footer.component";
 import { NavbarComponent } from "../../../../layout/navbar/navbar.component";
 
 @Component({
-  selector: 'app-service',
+  selector: 'app-collections',
   imports: [FooterComponent, NavbarComponent],
-  templateUrl: './service.component.html',
-  styleUrl: './service.component.sass'
+  templateUrl: './collections.component.html',
+  styleUrl: './collections.component.sass'
 })
-export class ServiceComponent {
+export class CollectionsComponent {
 
 }

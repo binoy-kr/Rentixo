@@ -1,33 +1,46 @@
 <app-navbar></app-navbar>
 
-<section class="bg-black text-white py-24 min-h-screen">
-  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
-    <div>
-      <img
-        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop"
-        class="rounded-3xl shadow-2xl"
-        alt=""
-      />
+<section class="bg-neutral-950 text-white py-32 min-h-screen flex items-center relative overflow-hidden">
+  <div class="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-amber-500/5 blur-[100px]"></div>
+
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center relative z-10">
+    <!-- Image Box with Minimal Frame -->
+    <div class="relative group">
+      <div class="absolute -inset-1 bg-gradient-to-r from-amber-500 to-orange-500 rounded-[2rem] blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+      <div class="relative rounded-[2rem] overflow-hidden border border-white/10 bg-neutral-900 p-2">
+        <img
+          src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop"
+          class="rounded-[1.7rem] shadow-2xl w-full h-[450px] object-cover duration-500 filter grayscale hover:grayscale-0"
+          alt="Rentixo Heritage"
+        />
+      </div>
     </div>
 
+    <!-- Text Content -->
     <div class="space-y-6">
-      <h1 class="text-5xl font-bold">
-        About <span class="text-yellow-400">Rentixo</span>
+      <p class="text-xs font-bold tracking-widest text-amber-400 uppercase">// OUR MANIFESTO</p>
+      <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-tight">
+        WE ARCHITECT THE <br>
+        <span class="bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">FUTURE OF FLUIDITY</span>
       </h1>
 
-      <p class="text-gray-300 text-lg leading-8">
-        Rentixo provides premium car rental services with modern luxury cars,
-        affordable pricing and professional customer support.
+      <p class="text-neutral-400 text-lg leading-relaxed">
+        Founded on the obsession with fine motors and uncompromised service, Rentixo bridges the gap between prestige performance and seamless accessibility.
       </p>
 
-      <p class="text-gray-400">
-        Our mission is to make every journey comfortable, stylish and memorable.
-      </p>
+      <div class="grid grid-cols-2 gap-6 py-4 border-y border-white/5">
+        <div>
+          <h4 class="text-3xl font-black text-amber-400">99%</h4>
+          <p class="text-xs text-neutral-400 font-bold tracking-wider uppercase mt-1">Client Satisfaction</p>
+        </div>
+        <div>
+          <h4 class="text-3xl font-black text-white">500+</h4>
+          <p class="text-xs text-neutral-400 font-bold tracking-wider uppercase mt-1">Supercars Active</p>
+        </div>
+      </div>
 
-      <button
-        class="bg-yellow-400 hover:bg-yellow-300 text-black px-6 py-3 rounded-xl font-semibold duration-300"
-      >
-        Learn More
+      <button class="bg-white text-neutral-950 hover:bg-amber-400 hover:text-black px-8 py-3.5 rounded-xl font-bold text-sm uppercase tracking-wider duration-300">
+        Read Our Story
       </button>
     </div>
   </div>

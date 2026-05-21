@@ -1,79 +1,99 @@
 <app-navbar></app-navbar>
 
-<section class="bg-black text-white py-24 min-h-screen">
+<section class="bg-neutral-950 text-white py-32 min-h-screen">
   <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-16">
-      <h1 class="text-5xl font-bold">
-        Car <span class="text-yellow-400">Collections</span>
-      </h1>
+    <div class="text-center mb-20 space-y-3">
+      <p class="text-xs font-bold tracking-widest text-amber-400 uppercase">// LEGENDARY MACHINES</p>
+      <h1 class="text-4xl md:text-6xl font-black tracking-tight">THE GARAGE</h1>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-10">
-      <!-- Card -->
-      <div
-        class="bg-gray-900 rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-3 duration-300"
-      >
-        <img
-          src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1200&auto=format&fit=crop"
-          class="h-64 w-full object-cover"
-          alt=""
-        />
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Card 1 (BMW M4) -->
+      <div class="group bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col justify-between">
+        <div class="overflow-hidden relative h-56">
+          <div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">Track Sport</div>
+          <img
+            src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1200&auto=format&fit=crop"
+            class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all filter brightness-90 group-hover:brightness-100"
+            alt="BMW M4"
+          />
+        </div>
 
-        <div class="p-6">
-          <h2 class="text-2xl font-bold mb-2">BMW M4</h2>
+        <div class="p-6 space-y-4">
+          <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-black tracking-tight">BMW M4 Competition</h2>
+            <span class="text-amber-400 font-bold text-sm">$320<span class="text-xs text-neutral-500 font-medium">/day</span></span>
+          </div>
+          <p class="text-neutral-400 text-sm leading-relaxed">Twin-turbo straight-six engine with raw, unparalleled track pedigree.</p>
+          
+          <div class="grid grid-cols-3 gap-2 py-3 border-t border-white/5 text-center text-[11px] font-bold tracking-wider text-neutral-400 uppercase">
+            <div class="bg-white/5 py-1 rounded-md">503 HP</div>
+            <div class="bg-white/5 py-1 rounded-md">3.4s 0-60</div>
+            <div class="bg-white/5 py-1 rounded-md">RWD</div>
+          </div>
 
-          <p class="text-gray-400 mb-4">Luxury sports experience.</p>
-
-          <button
-            class="bg-yellow-400 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-300 duration-300"
-          >
-            Rent Now
+          <button class="w-full bg-white/5 group-hover:bg-amber-400 text-white group-hover:text-black py-3 rounded-xl font-bold text-xs uppercase tracking-wider duration-300 border border-white/10 group-hover:border-transparent">
+            Reserve Vehicle
           </button>
         </div>
       </div>
 
-      <!-- Card -->
-      <div
-        class="bg-gray-900 rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-3 duration-300"
-      >
-        <img
-          src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200&auto=format&fit=crop"
-          class="h-64 w-full object-cover"
-          alt=""
-        />
+      <!-- Card 2 (Audi R8) -->
+      <div class="group bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col justify-between">
+        <div class="overflow-hidden relative h-56">
+          <div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">Hyper V10</div>
+          <img
+            src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200&auto=format&fit=crop"
+            class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all filter brightness-90 group-hover:brightness-100"
+            alt="Audi R8"
+          />
+        </div>
 
-        <div class="p-6">
-          <h2 class="text-2xl font-bold mb-2">Audi R8</h2>
+        <div class="p-6 space-y-4">
+          <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-black tracking-tight">Audi R8 Spyder</h2>
+            <span class="text-amber-400 font-bold text-sm">$450<span class="text-xs text-neutral-500 font-medium">/day</span></span>
+          </div>
+          <p class="text-neutral-400 text-sm leading-relaxed">Naturally aspirated pure V10 audio symphony combined with raw speed.</p>
+          
+          <div class="grid grid-cols-3 gap-2 py-3 border-t border-white/5 text-center text-[11px] font-bold tracking-wider text-neutral-400 uppercase">
+            <div class="bg-white/5 py-1 rounded-md">602 HP</div>
+            <div class="bg-white/5 py-1 rounded-md">3.1s 0-60</div>
+            <div class="bg-white/5 py-1 rounded-md">AWD</div>
+          </div>
 
-          <p class="text-gray-400 mb-4">Powerful and stylish luxury ride.</p>
-
-          <button
-            class="bg-yellow-400 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-300 duration-300"
-          >
-            Rent Now
+          <button class="w-full bg-white/5 group-hover:bg-amber-400 text-white group-hover:text-black py-3 rounded-xl font-bold text-xs uppercase tracking-wider duration-300 border border-white/10 group-hover:border-transparent">
+            Reserve Vehicle
           </button>
         </div>
       </div>
 
-      <!-- Card -->
-      <div
-        class="bg-gray-900 rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-3 duration-300"
-      >
-        <img
-          src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop"
-          class="h-64 w-full object-cover"
-          alt=""
-        />
+      <!-- Card 3 (Mercedes AMG) -->
+      <div class="group bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col justify-between">
+        <div class="overflow-hidden relative h-56">
+          <div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">Luxury GT</div>
+          <img
+            src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop"
+            class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all filter brightness-90 group-hover:brightness-100"
+            alt="Mercedes AMG"
+          />
+        </div>
 
-        <div class="p-6">
-          <h2 class="text-2xl font-bold mb-2">Mercedes AMG</h2>
+        <div class="p-6 space-y-4">
+          <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-black tracking-tight">Mercedes AMG GT</h2>
+            <span class="text-amber-400 font-bold text-sm">$390<span class="text-xs text-neutral-500 font-medium">/day</span></span>
+          </div>
+          <p class="text-neutral-400 text-sm leading-relaxed">The ultimate executive fastback coupe designed for transcontinental grand touring.</p>
+          
+          <div class="grid grid-cols-3 gap-2 py-3 border-t border-white/5 text-center text-[11px] font-bold tracking-wider text-neutral-400 uppercase">
+            <div class="bg-white/5 py-1 rounded-md">577 HP</div>
+            <div class="bg-white/5 py-1 rounded-md">3.5s 0-60</div>
+            <div class="bg-white/5 py-1 rounded-md">BiTurbo</div>
+          </div>
 
-          <p class="text-gray-400 mb-4">Elegant premium driving experience.</p>
-
-          <button
-            class="bg-yellow-400 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-300 duration-300"
-          >
-            Rent Now
+          <button class="w-full bg-white/5 group-hover:bg-amber-400 text-white group-hover:text-black py-3 rounded-xl font-bold text-xs uppercase tracking-wider duration-300 border border-white/10 group-hover:border-transparent">
+            Reserve Vehicle
           </button>
         </div>
       </div>

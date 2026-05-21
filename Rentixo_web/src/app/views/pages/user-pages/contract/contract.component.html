@@ -1,39 +1,50 @@
 <app-navbar></app-navbar>
 
-<section class="bg-gray-950 text-white py-24 min-h-screen">
-  <div class="max-w-4xl mx-auto px-6">
-    <div class="text-center mb-14">
-      <h1 class="text-5xl font-bold">
-        Contact <span class="text-yellow-400">Us</span>
-      </h1>
+<section class="bg-neutral-950 text-white py-32 min-h-screen flex items-center">
+  <div class="max-w-4xl mx-auto px-6 w-full">
+    <div class="text-center mb-16 space-y-3">
+      <p class="text-xs font-bold tracking-widest text-amber-400 uppercase">// CONNECT WITH CONCIERGE</p>
+      <h1 class="text-4xl md:text-6xl font-black tracking-tight">CONTACT US</h1>
     </div>
 
-    <div class="bg-black p-10 rounded-3xl shadow-2xl border border-gray-800">
-      <div class="grid md:grid-cols-2 gap-6">
-        <input
-          type="text"
-          placeholder="Your Name"
-          class="bg-gray-900 p-4 rounded-xl outline-none border border-gray-700"
-        />
+    <div class="bg-neutral-900 p-8 md:p-12 rounded-[2.5rem] shadow-2xl border border-white/5">
+      <form class="space-y-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="space-y-2">
+            <label class="text-[11px] font-bold uppercase tracking-widest text-neutral-400">Full Name</label>
+            <input
+              type="text"
+              placeholder="Elon Musk"
+              class="w-full bg-neutral-950 p-4 rounded-xl outline-none border border-white/5 focus:border-amber-400 duration-300 text-white text-sm"
+            />
+          </div>
 
-        <input
-          type="email"
-          placeholder="Your Email"
-          class="bg-gray-900 p-4 rounded-xl outline-none border border-gray-700"
-        />
-      </div>
+          <div class="space-y-2">
+            <label class="text-[11px] font-bold uppercase tracking-widest text-neutral-400">Email Address</label>
+            <input
+              type="email"
+              placeholder="elon@spacex.com"
+              class="w-full bg-neutral-950 p-4 rounded-xl outline-none border border-white/5 focus:border-amber-400 duration-300 text-white text-sm"
+            />
+          </div>
+        </div>
 
-      <textarea
-        rows="6"
-        placeholder="Your Message"
-        class="bg-gray-900 p-4 rounded-xl outline-none border border-gray-700 w-full mt-6"
-      ></textarea>
+        <div class="space-y-2">
+          <label class="text-[11px] font-bold uppercase tracking-widest text-neutral-400">Your Message</label>
+          <textarea
+            rows="5"
+            placeholder="Describe your bespoke requirements..."
+            class="w-full bg-neutral-950 p-4 rounded-xl outline-none border border-white/5 focus:border-amber-400 duration-300 text-white text-sm resize-none"
+          ></textarea>
+        </div>
 
-      <button
-        class="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-3 rounded-xl font-semibold mt-6 duration-300"
-      >
-        Send Message
-      </button>
+        <button
+          type="submit"
+          class="w-full bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-yellow-500 hover:to-amber-500 text-neutral-950 py-4 rounded-xl font-black text-sm uppercase tracking-wider duration-300 shadow-xl shadow-amber-500/10 hover:scale-[1.01]"
+        >
+          Dispatch Message
+        </button>
+      </form>
     </div>
   </div>
 </section>

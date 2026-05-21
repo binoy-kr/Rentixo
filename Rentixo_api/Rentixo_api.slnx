@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/Auth/">
+    <Project Path="Auth.api.applications/Auth.api.applications.csproj" Id="ea7c3690-20c2-460d-8134-4c7c8f979cc3" />
+    <Project Path="Auth.api.infrastructure/Auth.api.infrastructure.csproj" Id="b6ccfb9b-1128-4aa3-ad7a-ef4190a6f043" />
+    <Project Path="Auth.api.presentations/Auth.api.presentations.csproj" Id="4970b03a-e296-4ee6-8145-944040ab2cd6" />
+  </Folder>
+  <Folder Name="/Rentixo/">
+    <Project Path="Rentixo.api.applications/Rentixo.api.applications.csproj" Id="1a2536a3-5b06-4a0e-a4e3-e2d089e4b601" />
+    <Project Path="Rentixo.api.infrastructure/Rentixo.api.infrastructure.csproj" Id="9e5a8920-0395-4c5e-a2c5-850d48bbd04c" />
+    <Project Path="Rentixo.api.presentations/Rentixo.api.presentations.csproj" Id="711b4559-9887-458c-924d-b2f5e8c2f795" />
+  </Folder>
+</Solution>

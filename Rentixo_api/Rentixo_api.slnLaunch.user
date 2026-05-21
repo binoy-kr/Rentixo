@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Rentixo.api.presentations\\Rentixo.api.presentations.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Auth.api.presentations\\Auth.api.presentations.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

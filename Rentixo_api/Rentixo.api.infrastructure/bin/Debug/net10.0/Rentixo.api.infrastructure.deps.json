@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Rentixo.api.infrastructure/1.0.0": {
+        "dependencies": {
+          "Rentixo.api.applications": "1.0.0"
+        },
+        "runtime": {
+          "Rentixo.api.infrastructure.dll": {}
+        }
+      },
+      "Rentixo.api.applications/1.0.0": {
+        "runtime": {
+          "Rentixo.api.applications.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rentixo.api.infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rentixo.api.applications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

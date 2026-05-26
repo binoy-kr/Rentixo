@@ -1,12 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Rentixo.api.presentations.Controllers
 {
-    public class CarSectionsController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CarSectionsController : ControllerBase
     {
-        public IActionResult Index()
+        private readonly ICarSections _carSections;
+
+        public CarSectionsController(
+            ICarSections carSections)
         {
-            return View();
+            _carSections = carSections;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> AddCar()
+        {
+            var result = await _carSections.AddCar();
+
+            return Ok(result);
         }
     }
 }

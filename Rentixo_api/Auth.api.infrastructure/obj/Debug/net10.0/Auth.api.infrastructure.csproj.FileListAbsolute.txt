@@ -1,0 +1,16 @@
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\bin\Debug\net10.0\Auth.api.infrastructure.deps.json
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\bin\Debug\net10.0\Auth.api.infrastructure.dll
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\bin\Debug\net10.0\Auth.api.infrastructure.pdb
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\bin\Debug\net10.0\Auth.api.applications.dll
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\bin\Debug\net10.0\Auth.api.applications.pdb
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.csproj.AssemblyReference.cache
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.AssemblyInfoInputs.cache
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.AssemblyInfo.cs
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.csproj.CoreCompileInputs.cache
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.sourcelink.json
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.2BD9AC79.Up2Date
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.dll
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\refint\Auth.api.infrastructure.dll
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\Auth.api.infrastructure.pdb
+D:\Rentixo\Rentixo_api\Auth.api.infrastructure\obj\Debug\net10.0\ref\Auth.api.infrastructure.dll

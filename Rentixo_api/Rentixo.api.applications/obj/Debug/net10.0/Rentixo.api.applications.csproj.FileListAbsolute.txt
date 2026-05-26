@@ -1,0 +1,12 @@
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\bin\Debug\net10.0\Rentixo.api.applications.deps.json
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\bin\Debug\net10.0\Rentixo.api.applications.dll
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\bin\Debug\net10.0\Rentixo.api.applications.pdb
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.AssemblyInfoInputs.cache
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.AssemblyInfo.cs
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.csproj.CoreCompileInputs.cache
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.sourcelink.json
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.dll
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\refint\Rentixo.api.applications.dll
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\Rentixo.api.applications.pdb
+D:\Rentixo\Rentixo_api\Rentixo.api.applications\obj\Debug\net10.0\ref\Rentixo.api.applications.dll

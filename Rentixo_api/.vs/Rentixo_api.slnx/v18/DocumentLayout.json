@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Rentixo\\Rentixo_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.presentations\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|solutionrelative:rentixo.api.presentations\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.presentations\\controllers\\bookingsectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|solutionrelative:rentixo.api.presentations\\controllers\\bookingsectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.presentations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|solutionrelative:rentixo.api.presentations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.presentations\\controllers\\carsectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{711B4559-9887-458C-924D-B2F5E8C2F795}|Rentixo.api.presentations\\Rentixo.api.presentations.csproj|solutionrelative:rentixo.api.presentations\\controllers\\carsectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5A8920-0395-4C5E-A2C5-850D48BBD04C}|Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.infrastructure\\rentixo.api.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9E5A8920-0395-4C5E-A2C5-850D48BBD04C}|Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj|solutionrelative:rentixo.api.infrastructure\\rentixo.api.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1A2536A3-5B06-4A0E-A4E3-E2D089E4B601}|Rentixo.api.applications\\Rentixo.api.applications.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.applications\\interfaces\\icarsections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2536A3-5B06-4A0E-A4E3-E2D089E4B601}|Rentixo.api.applications\\Rentixo.api.applications.csproj|solutionrelative:rentixo.api.applications\\interfaces\\icarsections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A2536A3-5B06-4A0E-A4E3-E2D089E4B601}|Rentixo.api.applications\\Rentixo.api.applications.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.applications\\rentixo.api.applications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1A2536A3-5B06-4A0E-A4E3-E2D089E4B601}|Rentixo.api.applications\\Rentixo.api.applications.csproj|solutionrelative:rentixo.api.applications\\rentixo.api.applications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9E5A8920-0395-4C5E-A2C5-850D48BBD04C}|Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj|d:\\rentixo\\rentixo_api\\rentixo.api.infrastructure\\repositories\\carsectionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5A8920-0395-4C5E-A2C5-850D48BBD04C}|Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj|solutionrelative:rentixo.api.infrastructure\\repositories\\carsectionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Rentixo.api.presentations\\Controllers\\DashboardController.cs",
-              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Rentixo.api.presentations\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Program.cs",
+              "RelativeDocumentMoniker": "Rentixo.api.presentations\\Program.cs",
+              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Program.cs",
+              "RelativeToolTip": "Rentixo.api.presentations\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T18:18:49.312Z",
+              "WhenOpened": "2026-05-26T18:19:09.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookingSectionsController.cs",
-              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Controllers\\BookingSectionsController.cs",
-              "RelativeDocumentMoniker": "Rentixo.api.presentations\\Controllers\\BookingSectionsController.cs",
-              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Controllers\\BookingSectionsController.cs",
-              "RelativeToolTip": "Rentixo.api.presentations\\Controllers\\BookingSectionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T18:18:00.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CarSectionsController.cs",
               "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Controllers\\CarSectionsController.cs",
               "RelativeDocumentMoniker": "Rentixo.api.presentations\\Controllers\\CarSectionsController.cs",
               "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.presentations\\Controllers\\CarSectionsController.cs",
               "RelativeToolTip": "Rentixo.api.presentations\\Controllers\\CarSectionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T18:17:31.754Z",
+              "WhenOpened": "2026-05-26T18:18:22.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Rentixo.api.infrastructure",
-              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj",
-              "RelativeDocumentMoniker": "Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj",
-              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj",
-              "RelativeToolTip": "Rentixo.api.infrastructure\\Rentixo.api.infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-21T18:14:02.342Z",
+              "Title": "CarSectionsService.cs",
+              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.infrastructure\\Repositories\\CarSectionsService.cs",
+              "RelativeDocumentMoniker": "Rentixo.api.infrastructure\\Repositories\\CarSectionsService.cs",
+              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.infrastructure\\Repositories\\CarSectionsService.cs",
+              "RelativeToolTip": "Rentixo.api.infrastructure\\Repositories\\CarSectionsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:16:01.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Rentixo.api.applications",
-              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.applications\\Rentixo.api.applications.csproj",
-              "RelativeDocumentMoniker": "Rentixo.api.applications\\Rentixo.api.applications.csproj",
-              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.applications\\Rentixo.api.applications.csproj",
-              "RelativeToolTip": "Rentixo.api.applications\\Rentixo.api.applications.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-21T18:13:41.857Z",
+              "DocumentIndex": 2,
+              "Title": "ICarSections.cs",
+              "DocumentMoniker": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.applications\\Interfaces\\ICarSections.cs",
+              "RelativeDocumentMoniker": "Rentixo.api.applications\\Interfaces\\ICarSections.cs",
+              "ToolTip": "D:\\Rentixo\\Rentixo_api\\Rentixo.api.applications\\Interfaces\\ICarSections.cs",
+              "RelativeToolTip": "Rentixo.api.applications\\Interfaces\\ICarSections.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:13:35.292Z",
               "EditorCaption": ""
             }
           ]

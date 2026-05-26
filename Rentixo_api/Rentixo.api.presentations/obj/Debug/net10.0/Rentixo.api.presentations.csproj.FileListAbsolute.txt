@@ -1,0 +1,9 @@
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.csproj.AssemblyReference.cache
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.AssemblyInfoInputs.cache
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.AssemblyInfo.cs
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.csproj.CoreCompileInputs.cache
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.MvcApplicationPartsAssemblyInfo.cs
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.MvcApplicationPartsAssemblyInfo.cache
+D:\Rentixo\Rentixo_api\Rentixo.api.presentations\obj\Debug\net10.0\Rentixo.api.presentations.sourcelink.json

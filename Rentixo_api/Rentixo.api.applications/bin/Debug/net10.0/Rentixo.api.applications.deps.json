@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Rentixo.api.applications/1.0.0": {
+        "runtime": {
+          "Rentixo.api.applications.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rentixo.api.applications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

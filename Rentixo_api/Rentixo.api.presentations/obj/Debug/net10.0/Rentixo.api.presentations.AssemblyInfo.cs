@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rentixo.api.presentations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77ec9cc60a0809cf0fdcfe8df2733cc3c86abd2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ccd3cf6599aa03333308946a22e4c720b9ca7a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rentixo.api.presentations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rentixo.api.presentations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Auth.api.infrastructure/1.0.0": {
+        "dependencies": {
+          "Auth.api.applications": "1.0.0"
+        },
+        "runtime": {
+          "Auth.api.infrastructure.dll": {}
+        }
+      },
+      "Auth.api.applications/1.0.0": {
+        "runtime": {
+          "Auth.api.applications.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Auth.api.infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Auth.api.applications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

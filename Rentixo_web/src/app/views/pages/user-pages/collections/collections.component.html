@@ -1,103 +1,249 @@
 <app-navbar></app-navbar>
 
-<section class="bg-neutral-950 text-white py-32 min-h-screen">
+<section class="bg-neutral-950 text-white py-24 min-h-screen overflow-hidden">
   <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-20 space-y-3">
-      <p class="text-xs font-bold tracking-widest text-amber-400 uppercase">// LEGENDARY MACHINES</p>
-      <h1 class="text-4xl md:text-6xl font-black tracking-tight">THE GARAGE</h1>
+
+    <!-- Heading -->
+    <div class="text-center mb-14 space-y-3">
+      <p class="text-xs font-bold tracking-[0.3em] text-amber-400 uppercase">
+        // PREMIUM VEHICLES
+      </p>
+
+      <h1 class="text-4xl md:text-6xl font-black tracking-tight">
+        THE GARAGE
+      </h1>
+
+      <p class="text-neutral-500 max-w-2xl mx-auto text-sm md:text-base">
+        Explore luxury cars, powerful superbikes and stylish three wheelers.
+      </p>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- Card 1 (BMW M4) -->
-      <div class="group bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col justify-between">
-        <div class="overflow-hidden relative h-56">
-          <div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">Track Sport</div>
-          <img
-            src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1200&auto=format&fit=crop"
-            class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all filter brightness-90 group-hover:brightness-100"
-            alt="BMW M4"
-          />
-        </div>
+    <!-- FILTER SECTION -->
+    <div class="flex justify-center mb-16">
+      <div class="bg-neutral-900 border border-white/10 rounded-2xl p-2 flex gap-3 shadow-2xl">
 
-        <div class="p-6 space-y-4">
-          <div class="flex justify-between items-center">
-            <h2 class="text-2xl font-black tracking-tight">BMW M4 Competition</h2>
-            <span class="text-amber-400 font-bold text-sm">$320<span class="text-xs text-neutral-500 font-medium">/day</span></span>
-          </div>
-          <p class="text-neutral-400 text-sm leading-relaxed">Twin-turbo straight-six engine with raw, unparalleled track pedigree.</p>
-          
-          <div class="grid grid-cols-3 gap-2 py-3 border-t border-white/5 text-center text-[11px] font-bold tracking-wider text-neutral-400 uppercase">
-            <div class="bg-white/5 py-1 rounded-md">503 HP</div>
-            <div class="bg-white/5 py-1 rounded-md">3.4s 0-60</div>
-            <div class="bg-white/5 py-1 rounded-md">RWD</div>
-          </div>
+        <button
+          class="px-6 py-3 rounded-xl bg-amber-400 text-black font-bold text-sm uppercase tracking-wider hover:scale-105 transition-all duration-300">
+          Four Wheeler
+        </button>
 
-          <button class="w-full bg-white/5 group-hover:bg-amber-400 text-white group-hover:text-black py-3 rounded-xl font-bold text-xs uppercase tracking-wider duration-300 border border-white/10 group-hover:border-transparent">
-            Reserve Vehicle
-          </button>
-        </div>
+        <button
+          class="px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-white font-bold text-sm uppercase tracking-wider transition-all duration-300">
+          Two Wheeler
+        </button>
+
+        <button
+          class="px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-white font-bold text-sm uppercase tracking-wider transition-all duration-300">
+          Three Wheeler
+        </button>
+
+      </div>
+    </div>
+
+    <!-- AUTO SCROLL SECTION -->
+    <div class="relative w-full overflow-hidden">
+
+      <!-- gradient -->
+      <div
+        class="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-neutral-950 to-transparent z-10 pointer-events-none">
       </div>
 
-      <!-- Card 2 (Audi R8) -->
-      <div class="group bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col justify-between">
-        <div class="overflow-hidden relative h-56">
-          <div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">Hyper V10</div>
-          <img
-            src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200&auto=format&fit=crop"
-            class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all filter brightness-90 group-hover:brightness-100"
-            alt="Audi R8"
-          />
-        </div>
-
-        <div class="p-6 space-y-4">
-          <div class="flex justify-between items-center">
-            <h2 class="text-2xl font-black tracking-tight">Audi R8 Spyder</h2>
-            <span class="text-amber-400 font-bold text-sm">$450<span class="text-xs text-neutral-500 font-medium">/day</span></span>
-          </div>
-          <p class="text-neutral-400 text-sm leading-relaxed">Naturally aspirated pure V10 audio symphony combined with raw speed.</p>
-          
-          <div class="grid grid-cols-3 gap-2 py-3 border-t border-white/5 text-center text-[11px] font-bold tracking-wider text-neutral-400 uppercase">
-            <div class="bg-white/5 py-1 rounded-md">602 HP</div>
-            <div class="bg-white/5 py-1 rounded-md">3.1s 0-60</div>
-            <div class="bg-white/5 py-1 rounded-md">AWD</div>
-          </div>
-
-          <button class="w-full bg-white/5 group-hover:bg-amber-400 text-white group-hover:text-black py-3 rounded-xl font-bold text-xs uppercase tracking-wider duration-300 border border-white/10 group-hover:border-transparent">
-            Reserve Vehicle
-          </button>
-        </div>
+      <div
+        class="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-neutral-950 to-transparent z-10 pointer-events-none">
       </div>
 
-      <!-- Card 3 (Mercedes AMG) -->
-      <div class="group bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col justify-between">
-        <div class="overflow-hidden relative h-56">
-          <div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">Luxury GT</div>
-          <img
-            src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop"
-            class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all filter brightness-90 group-hover:brightness-100"
-            alt="Mercedes AMG"
-          />
-        </div>
+      <!-- scrolling wrapper -->
+      <div class="flex scrolling-track gap-8 w-max">
 
-        <div class="p-6 space-y-4">
-          <div class="flex justify-between items-center">
-            <h2 class="text-2xl font-black tracking-tight">Mercedes AMG GT</h2>
-            <span class="text-amber-400 font-bold text-sm">$390<span class="text-xs text-neutral-500 font-medium">/day</span></span>
-          </div>
-          <p class="text-neutral-400 text-sm leading-relaxed">The ultimate executive fastback coupe designed for transcontinental grand touring.</p>
-          
-          <div class="grid grid-cols-3 gap-2 py-3 border-t border-white/5 text-center text-[11px] font-bold tracking-wider text-neutral-400 uppercase">
-            <div class="bg-white/5 py-1 rounded-md">577 HP</div>
-            <div class="bg-white/5 py-1 rounded-md">3.5s 0-60</div>
-            <div class="bg-white/5 py-1 rounded-md">BiTurbo</div>
+        <!-- ================= FOUR WHEELERS ================= -->
+
+        <!-- BMW -->
+        <div
+          class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col">
+
+          <div class="overflow-hidden relative h-56">
+            <div
+              class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">
+              Track Sport
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1200&auto=format&fit=crop"
+              class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all" alt="">
           </div>
 
-          <button class="w-full bg-white/5 group-hover:bg-amber-400 text-white group-hover:text-black py-3 rounded-xl font-bold text-xs uppercase tracking-wider duration-300 border border-white/10 group-hover:border-transparent">
-            Reserve Vehicle
-          </button>
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <h2 class="text-2xl font-black">BMW M4 Competition</h2>
+
+              <span class="text-amber-400 font-bold text-sm">
+                $320/day
+              </span>
+            </div>
+
+            <p class="text-neutral-400 text-sm">
+              Twin turbo beast built for performance and precision.
+            </p>
+          </div>
         </div>
+
+        <!-- Audi -->
+        <div
+          class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col">
+
+          <div class="overflow-hidden relative h-56">
+            <div
+              class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">
+              Hyper V10
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200&auto=format&fit=crop"
+              class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all" alt="">
+          </div>
+
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <h2 class="text-2xl font-black">Audi R8 Spyder</h2>
+
+              <span class="text-amber-400 font-bold text-sm">
+                $450/day
+              </span>
+            </div>
+
+            <p class="text-neutral-400 text-sm">
+              Naturally aspirated V10 with raw speed and emotion.
+            </p>
+          </div>
+        </div>
+
+        <!-- AMG -->
+        <div
+          class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-amber-400/30 transition-all duration-500 flex flex-col">
+
+          <div class="overflow-hidden relative h-56">
+            <div
+              class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-amber-400 uppercase border border-white/10">
+              Luxury GT
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop"
+              class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all" alt="">
+          </div>
+
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <h2 class="text-2xl font-black">Mercedes AMG GT</h2>
+
+              <span class="text-amber-400 font-bold text-sm">
+                $390/day
+              </span>
+            </div>
+
+            <p class="text-neutral-400 text-sm">
+              Grand touring luxury with aggressive AMG power.
+            </p>
+          </div>
+        </div>
+
+        <!-- ================= TWO WHEELERS ================= -->
+
+        <!-- Bike 1 -->
+        <div
+          class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-cyan-400/30 transition-all duration-500 flex flex-col">
+
+          <div class="overflow-hidden relative h-56">
+            <div
+              class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-cyan-400 uppercase border border-white/10">
+              Super Bike
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=1200&auto=format&fit=crop"
+              class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all" alt="">
+          </div>
+
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <h2 class="text-2xl font-black">Yamaha R1</h2>
+
+              <span class="text-cyan-400 font-bold text-sm">
+                $180/day
+              </span>
+            </div>
+
+            <p class="text-neutral-400 text-sm">
+              High-revving superbike engineered for adrenaline.
+            </p>
+          </div>
+        </div>
+
+        <!-- Bike 2 -->
+        <div
+          class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-cyan-400/30 transition-all duration-500 flex flex-col">
+
+          <div class="overflow-hidden relative h-56">
+            <div
+              class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-cyan-400 uppercase border border-white/10">
+              Naked Beast
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1517846693594-1567da72af75?q=80&w=1200&auto=format&fit=crop"
+              class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all" alt="">
+          </div>
+
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <h2 class="text-2xl font-black">Kawasaki Z900</h2>
+
+              <span class="text-cyan-400 font-bold text-sm">
+                $150/day
+              </span>
+            </div>
+
+            <p class="text-neutral-400 text-sm">
+              Street-focused naked machine with brutal acceleration.
+            </p>
+          </div>
+        </div>
+
+        <!-- ================= THREE WHEELERS ================= -->
+
+        <!-- Auto -->
+        <div
+          class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5 hover:border-green-400/30 transition-all duration-500 flex flex-col">
+
+          <div class="overflow-hidden relative h-56">
+            <div
+              class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-[10px] font-bold tracking-widest text-green-400 uppercase border border-white/10">
+              Urban Ride
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=1200&auto=format&fit=crop"
+              class="h-full w-full object-cover group-hover:scale-110 duration-700 transition-all" alt="">
+          </div>
+
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <h2 class="text-2xl font-black">Electric Auto</h2>
+
+              <span class="text-green-400 font-bold text-sm">
+                $60/day
+              </span>
+            </div>
+
+            <p class="text-neutral-400 text-sm">
+              Smart eco-friendly city transportation solution.
+            </p>
+          </div>
+        </div>
+
+        <!-- Duplicate for smooth infinite scroll -->
+        <div class="group w-[340px] bg-neutral-900 rounded-[2rem] overflow-hidden border border-white/5">
+          <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1200&auto=format&fit=crop"
+            class="h-56 w-full object-cover">
+        </div>
+
       </div>
     </div>
   </div>
 </section>
+
 <app-footer></app-footer>

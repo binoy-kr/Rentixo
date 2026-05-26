@@ -1,9 +1,11 @@
-<nav class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-neutral-950/20 backdrop-blur-md border-b border-white/5 hover:bg-neutral-950/80">
+<nav
+  class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-neutral-950/20 backdrop-blur-md border-b border-white/5 hover:bg-neutral-950/80">
   <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-    
+
     <!-- Logo with Luxury Identity -->
     <div class="flex items-center gap-3 cursor-pointer group" routerLink="/home">
-      <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-amber-400 to-yellow-500 flex items-center justify-center text-black font-black text-2xl shadow-lg shadow-amber-500/20 group-hover:rotate-6 duration-300">
+      <div
+        class="w-11 h-11 rounded-xl bg-gradient-to-br from-amber-400 to-yellow-500 flex items-center justify-center text-black font-black text-2xl shadow-lg shadow-amber-500/20 group-hover:rotate-6 duration-300">
         R
       </div>
       <h1 class="text-2xl font-black text-white tracking-wider group-hover:text-amber-400 duration-300 uppercase">
@@ -14,30 +16,39 @@
     <!-- Ultra Modern Desktop Menu -->
     <ul class="hidden md:flex items-center gap-10 text-xs font-bold tracking-widest text-neutral-400 uppercase">
       <li>
-        <a routerLink="/home" routerLinkActive="text-amber-400" class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Home</a>
+        <a routerLink="/home" routerLinkActive="text-amber-400"
+          class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Home</a>
       </li>
       <li>
-        <a routerLink="/about" routerLinkActive="text-amber-400" class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">About</a>
+        <a routerLink="/about" routerLinkActive="text-amber-400"
+          class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">About</a>
       </li>
       <li>
-        <a routerLink="/service" routerLinkActive="text-amber-400" class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Services</a>
+        <a routerLink="/service" routerLinkActive="text-amber-400"
+          class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Services</a>
       </li>
       <li>
-        <a routerLink="/collections" routerLinkActive="text-amber-400" class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Collections</a>
+        <a routerLink="/collections" routerLinkActive="text-amber-400"
+          class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Collections</a>
       </li>
       <li>
-        <a routerLink="/contract" routerLinkActive="text-amber-400" class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Contact</a>
+        <a routerLink="/contract" routerLinkActive="text-amber-400"
+          class="relative py-2 hover:text-white duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300">Contact</a>
       </li>
     </ul>
 
     <!-- Right Actions -->
     <div class="flex items-center gap-4">
-      <button class="hidden md:block bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-yellow-500 hover:to-amber-500 text-neutral-950 px-6 py-2.5 rounded-xl font-extrabold text-sm uppercase tracking-wider shadow-lg shadow-amber-500/20 hover:scale-105 duration-300">
-        Member Login
-      </button>
+      <a routerLink="/login">
+        <button
+          class="hidden md:block bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-yellow-500 hover:to-amber-500 text-neutral-950 px-6 py-2.5 rounded-xl font-extrabold text-sm uppercase tracking-wider shadow-lg shadow-amber-500/20 hover:scale-105 duration-300">
+          Member Login
+        </button>
+      </a>
 
       <!-- Mobile Menu Trigger -->
-      <button class="md:hidden text-white hover:text-amber-400 duration-300 p-2 rounded-lg bg-white/5 border border-white/10">
+      <button
+        class="md:hidden text-white hover:text-amber-400 duration-300 p-2 rounded-lg bg-white/5 border border-white/10">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>

@@ -1,47 +1,250 @@
 <app-navbar></app-navbar>
 
-<section class="bg-neutral-950 text-white py-32 min-h-screen">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-20 space-y-3">
-      <p class="text-xs font-bold tracking-widest text-amber-400 uppercase">// WORLD CLASS ECOSYSTEM</p>
-      <h1 class="text-4xl md:text-6xl font-black tracking-tight">OUR SERVICES</h1>
+<section class="bg-neutral-950 text-white overflow-hidden">
+
+  <!-- HERO -->
+  <div class="relative py-24 md:py-32 border-b border-white/5">
+
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(251,191,36,0.12),transparent_40%)]"></div>
+
+    <div class="max-w-7xl mx-auto px-6 relative z-10">
+
+      <div class="text-center max-w-4xl mx-auto">
+
+        <p class="text-amber-400 uppercase tracking-[5px] text-xs font-bold mb-5">
+          // PREMIUM AUTOMOTIVE SOLUTIONS
+        </p>
+
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight">
+          COMPLETE VEHICLE
+          <span class="text-amber-400">SERVICES</span>
+        </h1>
+
+        <p class="text-neutral-400 mt-6 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
+          From luxury rentals to wedding fleets, touring buses, professional servicing,
+          detailing, and custom modifications — everything your vehicle needs in one ecosystem.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mt-10">
+
+          <button
+            class="bg-amber-400 hover:bg-white text-black px-8 py-4 rounded-2xl font-bold transition-all duration-300">
+            Explore Services
+          </button>
+
+          <button
+            class="border border-white/10 hover:border-amber-400 hover:bg-amber-400 hover:text-black px-8 py-4 rounded-2xl font-bold transition-all duration-300">
+            Book Appointment
+          </button>
+
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- Service 1 -->
-      <div class="bg-neutral-900 border border-white/5 p-10 rounded-[2rem] hover:scale-[1.03] duration-300 flex flex-col justify-between group">
-        <div>
-          <div class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center font-bold mb-8 group-hover:bg-amber-400 group-hover:text-black duration-300 text-xl">D</div>
-          <h2 class="text-2xl font-black mb-4">Bespoke Daily Rental</h2>
-          <p class="text-neutral-400 text-sm leading-relaxed">
-            Access keys instantly for high-profile business summits, leisure trips, or just experiencing raw mechanical joy.
-          </p>
+  </div>
+
+  <!-- SERVICES -->
+  <div class="max-w-7xl mx-auto px-6 py-20">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+      <!-- SAME DAY RENT -->
+      <div
+        class="group bg-neutral-900 border border-white/5 rounded-[32px] overflow-hidden hover:border-amber-400/30 transition-all duration-500">
+
+        <div class="h-60 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop"
+            class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="">
         </div>
-        <span class="text-xs text-amber-400 font-bold tracking-widest uppercase mt-8 block cursor-pointer hover:underline">Learn more →</span>
+
+        <div class="p-8">
+
+          <div
+            class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-black mb-6 group-hover:bg-amber-400 group-hover:text-black transition-all duration-300">
+            01
+          </div>
+
+          <h2 class="text-3xl font-black mb-4">
+            Same Day Car Rent
+          </h2>
+
+          <p class="text-neutral-400 text-sm leading-relaxed">
+            Need a premium vehicle instantly? Rent luxury, sports, or family cars for same-day travel and business use.
+          </p>
+
+          <button
+            class="mt-8 w-full bg-white/5 hover:bg-amber-400 hover:text-black py-4 rounded-2xl font-bold transition-all duration-300">
+            Rent Now
+          </button>
+
+        </div>
+
       </div>
 
-      <!-- Service 2 -->
-      <div class="bg-neutral-900 border border-white/5 p-10 rounded-[2rem] hover:scale-[1.03] duration-300 flex flex-col justify-between group">
-        <div>
-          <div class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center font-bold mb-8 group-hover:bg-amber-400 group-hover:text-black duration-300 text-xl">A</div>
-          <h2 class="text-2xl font-black mb-4">White-Glove Airport Pickup</h2>
-          <p class="text-neutral-400 text-sm leading-relaxed">
-            Step off your terminal straight into a pre-cooled, pristine cabin managed by professional certified chauffeurs.
-          </p>
+      <!-- MULTI DAY RENT -->
+      <div
+        class="group bg-neutral-900 border border-white/5 rounded-[32px] overflow-hidden hover:border-amber-400/30 transition-all duration-500">
+
+        <div class="h-60 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop"
+            class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="">
         </div>
-        <span class="text-xs text-amber-400 font-bold tracking-widest uppercase mt-8 block cursor-pointer hover:underline">Learn more →</span>
+
+        <div class="p-8">
+
+          <div
+            class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-black mb-6 group-hover:bg-amber-400 group-hover:text-black transition-all duration-300">
+            02
+          </div>
+
+          <h2 class="text-3xl font-black mb-4">
+            Long Tour Rental
+          </h2>
+
+          <p class="text-neutral-400 text-sm leading-relaxed">
+            Book vehicles for multiple days, outstation trips, vacations, road adventures, and family journeys.
+          </p>
+
+          <button
+            class="mt-8 w-full bg-white/5 hover:bg-amber-400 hover:text-black py-4 rounded-2xl font-bold transition-all duration-300">
+            Book Tour Ride
+          </button>
+
+        </div>
+
       </div>
 
-      <!-- Service 3 -->
-      <div class="bg-neutral-900 border border-white/5 p-10 rounded-[2rem] hover:scale-[1.03] duration-300 flex flex-col justify-between group">
-        <div>
-          <div class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center font-bold mb-8 group-hover:bg-amber-400 group-hover:text-black duration-300 text-xl">W</div>
-          <h2 class="text-2xl font-black mb-4">Signature Ceremony Fleet</h2>
-          <p class="text-neutral-400 text-sm leading-relaxed">
-            Elevate weddings, red-carpets, and milestone galas with our strictly maintained iconic luxury fleets.
-          </p>
+      <!-- WEDDING -->
+      <div
+        class="group bg-neutral-900 border border-white/5 rounded-[32px] overflow-hidden hover:border-amber-400/30 transition-all duration-500">
+
+        <div class="h-60 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop"
+            class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="Wedding Car">
         </div>
-        <span class="text-xs text-amber-400 font-bold tracking-widest uppercase mt-8 block cursor-pointer hover:underline">Learn more →</span>
+
+        <div class="p-8">
+
+          <div
+            class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-black mb-6 group-hover:bg-amber-400 group-hover:text-black transition-all duration-300">
+            03
+          </div>
+
+          <h2 class="text-3xl font-black mb-4">
+            Wedding Car Rental
+          </h2>
+
+          <p class="text-neutral-400 text-sm leading-relaxed">
+            Premium luxury cars available for weddings, receptions, bride & groom entry,
+            VIP guest pickup, and complete marriage ceremony transportation.
+          </p>
+
+          <button
+            class="mt-8 w-full bg-white/5 hover:bg-amber-400 hover:text-black py-4 rounded-2xl font-bold transition-all duration-300">
+            Book Wedding Car
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- BUS -->
+      <div
+        class="group bg-neutral-900 border border-white/5 rounded-[32px] overflow-hidden hover:border-amber-400/30 transition-all duration-500">
+
+        <div class="h-60 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1200&auto=format&fit=crop"
+            class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="">
+        </div>
+
+        <div class="p-8">
+
+          <div
+            class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-black mb-6 group-hover:bg-amber-400 group-hover:text-black transition-all duration-300">
+            04
+          </div>
+
+          <h2 class="text-3xl font-black mb-4">
+            Tour Bus Booking
+          </h2>
+
+          <p class="text-neutral-400 text-sm leading-relaxed">
+            Comfortable AC buses for tours, office trips, educational travel, corporate events, and group journeys.
+          </p>
+
+          <button
+            class="mt-8 w-full bg-white/5 hover:bg-amber-400 hover:text-black py-4 rounded-2xl font-bold transition-all duration-300">
+            Book Bus
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- SERVICING -->
+      <div
+        class="group bg-neutral-900 border border-white/5 rounded-[32px] overflow-hidden hover:border-amber-400/30 transition-all duration-500">
+
+        <div class="h-60 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1200&auto=format&fit=crop"
+            class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="">
+        </div>
+
+        <div class="p-8">
+
+          <div
+            class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-black mb-6 group-hover:bg-amber-400 group-hover:text-black transition-all duration-300">
+            05
+          </div>
+
+          <h2 class="text-3xl font-black mb-4">
+            Car Servicing & Wash
+          </h2>
+
+          <p class="text-neutral-400 text-sm leading-relaxed">
+            Professional servicing, oil change, detailing, pressure washing, polishing, and complete maintenance care.
+          </p>
+
+          <button
+            class="mt-8 w-full bg-white/5 hover:bg-amber-400 hover:text-black py-4 rounded-2xl font-bold transition-all duration-300">
+            Service Vehicle
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- MODIFICATION -->
+      <div
+        class="group bg-neutral-900 border border-white/5 rounded-[32px] overflow-hidden hover:border-amber-400/30 transition-all duration-500">
+
+        <div class="h-60 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1200&auto=format&fit=crop"
+            class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="">
+        </div>
+
+        <div class="p-8">
+
+          <div
+            class="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-black mb-6 group-hover:bg-amber-400 group-hover:text-black transition-all duration-300">
+            06
+          </div>
+
+          <h2 class="text-3xl font-black mb-4">
+            Car Modification
+          </h2>
+
+          <p class="text-neutral-400 text-sm leading-relaxed">
+            Upgrade your ride with body kits, alloy wheels, ambient lighting, performance tuning, and custom interiors.
+          </p>
+
+          <button
+            class="mt-8 w-full bg-white/5 hover:bg-amber-400 hover:text-black py-4 rounded-2xl font-bold transition-all duration-300">
+            Customize Car
+          </button>
+        </div>
       </div>
     </div>
   </div>
